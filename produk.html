@@ -1,0 +1,41 @@
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="link icon-only open-panel"> <img src="img/icon.png"></a></div>
+    <div class="center sliding"></div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="produk" class="page">
+    <div class="page-content">
+      <div class="content-block-title">Produk</div>
+      <!--div class="list-block"><center>        
+        <ul>{{#each this}}
+          <li>
+            <a href="produk_detail.html" class="item-content" data-context-name="produk.{{@index}}" >
+            <div class="item-inner">
+              <div class="item-title-row" align="center">
+                <div class="item-title">{{jenis}}</div>          
+                <div class="item-subtitle">
+              	  <img src="{{nm_gmbr}}">                  
+                </div>
+              </div>
+            </div>
+            </a>
+          </li>{{/each}}
+        </ul></center>  
+      </div-->
+      <div class="content-block">
+          <div class="content-block-inner">
+              <center>{{#each this}}
+              <h3>{{jenis}}</h3>
+              <a href="produk_detail.html" class="item-content" data-context-name="produk.{{@index}}" >
+              <img src="{{nm_gmbr}}" height="150px" width="150px">
+              </a><br />
+              <a href="#" class="alert-text-title">Info</a><hr />{{/each}}
+              </center>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

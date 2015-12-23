@@ -1,0 +1,70 @@
+.pan{
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.pan:hover{
+	color:#00CC99;
+}
+.navbar, .toolbar{
+	background:#039370;
+}
+.heightx{
+	height:50px;
+}
+.navbar-inner{
+	 padding-top:0px; 
+	 padding-left:0px;
+}
+.left img{
+	height:50px;
+	width:50px;
+}
+.back img{
+	padding-left:5px;
+	height:40px;
+	width:40px;
+}
+.back img:hover{
+	padding-left:5px;
+	height:30px;
+	width:30px;
+}
+
+/* Your app custom files in this file */
+/* Tab bar icons */
+i.tabbar-demo-icon-1 {
+  width: 30px;
+  height: 30px;
+  background-image:url("../img/chat2.png");
+  
+}
+i.tabbar-demo-icon-1:hover {
+  background-image:url("../img/chat.png");
+}
+/*.active i.tabbar-demo-icon-1:hover {
+  background-image:url("../img/chat.png");
+}*/
+i.tabbar-demo-icon-2 {
+  width: 25px;
+  height: 30px;
+  background-image:url("../img/produk2.png");
+}
+i.tabbar-demo-icon-2:hover  {
+  background-image:url("../img/produk.png");
+}
+i.tabbar-demo-icon-3 {
+  width: 30px;
+  height: 30px;
+  background-image:url("../img/pengantar2.png");
+}
+i.tabbar-demo-icon-3:hover  {
+  background-image:url("../img/pengantar.png");
+}
+/*i.tabbar-demo-icon-4 {
+  width: 25px;
+  height: 30px;
+  background-image:url("../img/chat2.png");
+}
+.active i.tabbar-demo-icon-4 {
+  background-image:url("../img/chat2.png");
+}*/

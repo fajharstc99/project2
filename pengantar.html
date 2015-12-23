@@ -1,0 +1,28 @@
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="link icon-only open-panel"> <img src="img/icon.png"></a></div>
+    <div class="center sliding"></div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="projects" class="page">
+    <div class="page-content">
+      <div class="content-block-title">Pengantar</div>
+      <div class="list-block media-list">
+        <ul>{{#each pengantar}}
+          <li class="item-content">
+            <div class="item-inner">
+              <div class="item-title-row">
+                <div class="item-title" align="left">{{nm_dpn}}<br>{{id}}</div>          
+                <div class="item-subtitle">
+              	  <a href="#" class="alert-text"><img src="{{gambar}}" height="50px" width="50px"></a>                  
+                </div>
+              </div>
+            </div>
+          </li>{{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
